@@ -7,5 +7,17 @@ class practice {
 //      generate and display a dream suggestion
         Dream dream = new Dream();
         System.out.println(dream.suggestion());
+
+        Fruit apple = new Fruit();
+        apple.name = "apple";
+
+        Fruit fruitA = new Fruit();
+        fruitA.name = "banana";
+
+        Apple appleA = new Apple();
+        Fruit appleB = new Apple();
+        Orange orangeA = new Orange();
+
+        Object a = new String();
     }
 }
