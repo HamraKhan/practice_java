@@ -19,5 +19,18 @@ class practice {
         Orange orangeA = new Orange();
 
         Object a = new String();
+
+        TypeCasting typeCasting = new TypeCasting();
+//        typeCasting.calculate();
+
+        double result = typeCasting.calculate2(1);
+
+        Dog maltese = new Dog();
+        maltese.breed="Maltese";
+        maltese.size="Small";
+        maltese.age=2;
+        maltese.color="white";
+        System.out.println(maltese.getInfo());
+
     }
 }
