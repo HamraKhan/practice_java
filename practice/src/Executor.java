@@ -1,5 +1,5 @@
 
-class practice {
+class Executor {
     public static void main(String args[]){
         System.out.println("Hello World I am the greatest v26.");
         System.out.println(2+2+6);
@@ -60,10 +60,38 @@ class practice {
         final String mutableText2 = "abcde";
 //        mutableText2 = "12345";
         System.out.println(mutableText2);
+
+
+        //Example: To create Array Of Objects
+        Account[] accountList = new Account[2];
+        accountList[0] = new Account();
+        accountList[1] = new Account();
+        //[
+        // 1.  null,
+        // 2.  null,
+        // 3,  null
+        //]
+
+
+        //[
+        // 1.  null,
+        // 2.  null, ----> set to {1,2}
+        // 3,  null
+        //]
+
+
+        //[
+        // 1.  null,
+        // 2.  null, ----> new Account() ----> set to {1,2}
+        // 3,  null
+        //]
+        accountList[0].setData(1,2);
+        accountList[1].setData(3,4);
+        System.out.println("For Array Element 0");
+        accountList[0].showData();
+        System.out.println("For Array Element 1");
+        accountList[1].showData();
     }
-
-
-
 
     private static void printWhatsInTheArray(String[] strArray) {
         for(int i = 0; i < strArray.length; i++) {
