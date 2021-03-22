@@ -91,6 +91,9 @@ class Executor {
         accountList[0].showData();
         System.out.println("For Array Element 1");
         accountList[1].showData();
+
+        SampleString.printString();
+
     }
 
     private static void printWhatsInTheArray(String[] strArray) {
