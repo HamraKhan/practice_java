@@ -92,7 +92,23 @@ class Executor {
         System.out.println("For Array Element 1");
         accountList[1].showData();
 
-        SampleString.printString();
+        SampleString.concatenation();
+
+        SampleString.stringLength();
+
+        SampleString.determineLocation();
+
+        SampleString.characterLocation();
+
+        SampleString.compareStrings();
+
+        SampleString.containsSequence();
+
+        SampleString.endsWithSuffix();
+
+        SampleString.modifyStrings();
+
+        SampleString.convertStringToUpperLowerCases();
 
     }
 
