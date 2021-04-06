@@ -110,6 +110,10 @@ class Executor {
 
         SampleString.convertStringToUpperLowerCases();
 
+        SampleString.indexOfStringOverloads();
+
+        SampleString.charAtMethod();
+
     }
 
     private static void printWhatsInTheArray(String[] strArray) {

@@ -1,13 +1,13 @@
 public class Dog {
     // Instance Variables
-    String breed;
-    String size;
-    int age;
-    String color;
+    static String breed;
+    static String size;
+    static int age;
+    static String color;
 
 
     // method 1
-    public String getInfo() {
+    public static String getInfo() {
         return ("Breed is: "+breed+" Size is:"+size+" Age is:"+age+" color is: "+color);
     }
 }
