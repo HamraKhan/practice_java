@@ -114,6 +114,15 @@ class Executor {
 
         SampleString.charAtMethod();
 
+        SampleString.compareToMethod();
+
+        SampleString.compareToIgnoreMethod();
+
+        SampleString.containsMethod();
+
+        SampleString.endsWithMethod();
+
+
     }
 
     private static void printWhatsInTheArray(String[] strArray) {

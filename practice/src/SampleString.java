@@ -125,4 +125,40 @@ public class SampleString {
         System.out.println("the first letter of my firstname is: " + firstNameInitial);
         System.out.println("the first letter of my lastname is: " + lastNameInitial);
     }
+
+    public static void compareToMethod() {
+        String str_Sample = "a";
+        str_Sample.contains("asd");
+        System.out.println("Compare To 'a' b is :" + str_Sample.compareTo("b"));
+        str_Sample = "b";
+        System.out.println("Compare To 'b' a is :" + str_Sample.compareTo("A"));
+        str_Sample ="b";
+        System.out.println("Compare To 'b' b is :" + str_Sample.compareTo("z"));
+    }
+
+    //compareToIgnoreCase method
+    public static void compareToIgnoreMethod() {
+        //compare to a string
+        String str_Sample = "rockstar";
+        System.out.println("Compare To 'ROCKSTAR': " + str_Sample.compareTo("rockStar"));
+        //compare to -ignore case
+        System.out.println("Compare To 'ROCKSTAR' - Case Ignored: " + str_Sample.compareToIgnoreCase("ROCKSTAR"));
+    }
+
+    public static void containsMethod() {
+        String str_Sample = "This is a String contains Example";
+        //check if String contains a sequence
+        System.out.println("Contains sequence 'ing': " + str_Sample.contains("ing"));
+        System.out.println("Contains sequence 'Example': " + str_Sample.contains("Example"));
+        System.out.println("Contains sequence 'Example': " + str_Sample.contains("example"));
+        System.out.println("Contains sequence 'is String': " +str_Sample.contains("is String"));
+    }
+
+    public static void endsWithMethod() {
+        String str_Sample = "Java String endsWith example";
+        //check if ends with a particular sequence
+        System.out.println("EndsWith character 'e':" + str_Sample.endsWith("e"));
+        System.out.println("EndsWith character 'ple': " + str_Sample.endsWith("ple"));
+        System.out.println("EndsWith character Java' : " + str_Sample.endsWith("Java"));
+    }
 }
