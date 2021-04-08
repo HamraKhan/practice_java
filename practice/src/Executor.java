@@ -122,6 +122,24 @@ class Executor {
 
         SampleString.endsWithMethod();
 
+        SampleString.replaceMethod();
+
+        SampleString.replaceAllMethod();
+
+        SampleString.replaceAllMethod2();
+
+        SampleString.replaceAllMethod3();
+
+        SampleString.replaceFirstMethod();
+
+        SampleString.toLowerCaseMethod();
+
+        SampleString.toUpperCaseMethod();
+
+        SampleString.integerParseIntMethod();
+
+        SampleString.integerValueOfMethod();
+
 
     }
 

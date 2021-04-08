@@ -1,4 +1,5 @@
 import java.sql.SQLOutput;
+import java.util.Locale;
 
 public class SampleString {
     public static void concatenation() {
@@ -160,5 +161,77 @@ public class SampleString {
         System.out.println("EndsWith character 'e':" + str_Sample.endsWith("e"));
         System.out.println("EndsWith character 'ple': " + str_Sample.endsWith("ple"));
         System.out.println("EndsWith character Java' : " + str_Sample.endsWith("Java"));
+    }
+
+    public static void replaceMethod() {
+        String S1 = new String("the quick fox jumped");
+        System.out.println("Original String is ': " + S1);
+        System.out.println("String after replacing 'fox' with 'dog': " + S1.replace("fox", "dog"));
+        System.out.println("String after replacing all 't' with 'a': " + S1.replace('t', 'a'));
+    }
+
+    //remove white spaces
+    public static void replaceAllMethod() {
+        String str = "I like chocolate and coffee cake";
+        //remove white spaces
+        String str2 = str.replaceAll("\\s", "");
+        System.out.println(str2);
+    }
+
+    //replace character
+    public static void replaceAllMethod2() {
+       String s1 = "Pomegranates are my favourite fruit";
+       //replace all occurences of "a" to "e"
+       String replaceString = s1.replaceAll("a", "e");
+        System.out.println(replaceString);
+    }
+
+    //replace word
+    public static void replaceAllMethod3() {
+        String s1 = "My name is Khan. My name is Bob, My name is Wanda.";
+        //replaces all occurrences of "is" to "was"
+        String replaceString = s1.replaceAll("is", "was");
+        System.out.println(replaceString);
+    }
+
+    public static void replaceFirstMethod() {
+        String str = "This is a very interesting thing to do";
+        //Only replaces first 's' with '9'
+        String str1 = str.replaceFirst("s", "9");
+        System.out.println(str1);
+    }
+
+    public static void toLowerCaseMethod() {
+        String S1 = new String ("UPPERCASE CONVERTED TO LOWERCASE");
+        //Convert to lowercase
+        System.out.println(S1.toLowerCase());
+    }
+
+    public static void toUpperCaseMethod() {
+        String S1 = new String ("lowercase converted to uppercase");
+        //convert to uppercase
+        System.out.println(S1.toUpperCase());
+    }
+
+    //CONVERT STRINGS TO INTEGER METHODS
+
+    //using integer.parseInt()
+    public static void integerParseIntMethod() {
+        String strTest = "100";
+        int iTest = Integer.parseInt(strTest);
+        System.out.println("Actual String:" + strTest);
+        System.out.println("Converted to Int:" + iTest);
+        //This will now show arithmetic operation
+        System.out.println("Arithmetic Operation on Int:" + (iTest/4));
+    }
+
+    //using integer.valueOf()
+    public static void integerValueOfMethod() {
+        String strTest = "100";
+        int iTest = Integer.valueOf(strTest);
+        System.out.println("Actual String:" + strTest);
+        System.out.println("Converted to Int:" + iTest);
+        //This will show some arithmetic operation
+        System.out.println("Arithmetic Operation on Int:" + (iTest / 4));
     }
 }
