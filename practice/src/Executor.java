@@ -1,8 +1,9 @@
 
+
 class Executor {
-    public static void main(String args[]){
+    public static void main(String args[]) {
         System.out.println("Hello World I am the greatest v26.");
-        System.out.println(2+2+6);
+        System.out.println(2 + 2 + 6);
 
 //      generate and display a dream suggestion
         Dream dream = new Dream();
@@ -26,10 +27,10 @@ class Executor {
         double result = typeCasting.calculate2(1);
 
         Dog maltese = new Dog();
-        maltese.breed="Maltese";
-        maltese.size="Small";
-        maltese.age=2;
-        maltese.color="white";
+        maltese.breed = "Maltese";
+        maltese.size = "Small";
+        maltese.age = 2;
+        maltese.color = "white";
         System.out.println(maltese.getInfo());
 
         ArrayVariables arrayVariables = new ArrayVariables();
@@ -85,8 +86,8 @@ class Executor {
         // 2.  null, ----> new Account() ----> set to {1,2}
         // 3,  null
         //]
-        accountList[0].setData(1,2);
-        accountList[1].setData(3,4);
+        accountList[0].setData(1, 2);
+        accountList[1].setData(3, 4);
         System.out.println("For Array Element 0");
         accountList[0].showData();
         System.out.println("For Array Element 1");
@@ -140,11 +141,14 @@ class Executor {
 
         SampleString.integerValueOfMethod();
 
+        HashMaps.hashMapPractice();
+
+        HashMaps.hashMapPracticeV2();
 
     }
 
     private static void printWhatsInTheArray(String[] strArray) {
-        for(int i = 0; i < strArray.length; i++) {
+        for (int i = 0; i < strArray.length; i++) {
             System.out.println(strArray[i]);
         }
     }
