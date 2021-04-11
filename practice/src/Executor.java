@@ -145,6 +145,15 @@ class Executor {
 
         HashMaps.hashMapPracticeV2();
 
+        //create an object of SuperClassKeyword Class and call methods set data and show data
+        SuperClassKeyword obj = new SuperClassKeyword();
+        obj.setData(2,3);
+        obj.showData();
+
+        SuperClassKeyword obj2 = new SuperClassKeyword();
+        obj2.setData(4,5);
+        obj2.showData();
+
     }
 
     private static void printWhatsInTheArray(String[] strArray) {
