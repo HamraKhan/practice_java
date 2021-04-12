@@ -154,8 +154,29 @@ class Executor {
         obj2.setData(4,5);
         obj2.showData();
 
+        GarbageCollectorMechanism GC1 = new GarbageCollectorMechanism();
+        Executor executor = new Executor();
+        executor.testingGC();
+        GC1.setData(1,2);
+        GC1.showData();
+
+        GarbageCollectorMechanism s3;
+        s3=GC1;
+        s3.showData();
+        GC1=null;
+        s3.showData();
+        s3=null;
+        System.gc();
     }
 
+    private void testingGC(){
+        GarbageCollectorMechanism GC2 = new GarbageCollectorMechanism();
+        GC2.setData(3,4);
+        GC2.showData();
+        GC2=null;
+        System.gc();
+
+    }
     private static void printWhatsInTheArray(String[] strArray) {
         for (int i = 0; i < strArray.length; i++) {
             System.out.println(strArray[i]);
