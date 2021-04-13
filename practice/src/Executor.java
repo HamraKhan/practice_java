@@ -154,6 +154,7 @@ class Executor {
         obj2.setData(4,5);
         obj2.showData();
 
+
         GarbageCollectorMechanism GC1 = new GarbageCollectorMechanism();
         Executor executor = new Executor();
         executor.testingGC();
@@ -168,9 +169,7 @@ class Executor {
         s3=null;
         System.gc();
 
-        StaticVariableExample.AccessStaticVariable();
-
-        AccessStaticBlock.StaticBlock();
+        StaticVariableExample.accessStaticVariable();
     }
 
     private void testingGC(){
