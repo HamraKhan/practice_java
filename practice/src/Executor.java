@@ -1,7 +1,7 @@
 
 
 class Executor {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("Hello World I am the greatest v26.");
         System.out.println(2 + 2 + 6);
 
@@ -27,10 +27,10 @@ class Executor {
         double result = typeCasting.calculate2(1);
 
         Dog maltese = new Dog();
-        maltese.breed = "Maltese";
-        maltese.size = "Small";
-        maltese.age = 2;
-        maltese.color = "white";
+        maltese.setBreed("Maltese");
+        maltese.setSize("Small");
+        maltese.setAge(2);
+        maltese.setColor("white");
         System.out.println(maltese.getInfo());
 
         ArrayVariables arrayVariables = new ArrayVariables();
@@ -167,6 +167,10 @@ class Executor {
         s3.showData();
         s3=null;
         System.gc();
+
+        StaticVariableExample.AccessStaticVariable();
+
+        AccessStaticBlock.StaticBlock();
     }
 
     private void testingGC(){
