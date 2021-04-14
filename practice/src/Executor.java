@@ -170,6 +170,8 @@ class Executor {
         System.gc();
 
         StaticVariableExample.accessStaticVariable();
+
+        InheritanceExample.InheritanceExample();
     }
 
     private void testingGC(){
