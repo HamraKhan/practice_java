@@ -172,6 +172,10 @@ class Executor {
         StaticVariableExample.accessStaticVariable();
 
         InheritanceExample.InheritanceExample();
+
+        MethodOverridingExample.MethodOverridingExample();
+
+        PolymorphismExample.PolymorphismExample();
     }
 
     private void testingGC(){
