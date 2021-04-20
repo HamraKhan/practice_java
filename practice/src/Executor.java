@@ -182,6 +182,9 @@ class Executor {
 
         Bike9 object2 = new Bike9();
         object2.run();
+
+        Pet p = new Rabbit();
+        p.poop();
     }
 
     private void testingGC(){
