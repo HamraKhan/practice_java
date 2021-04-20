@@ -176,6 +176,12 @@ class Executor {
         MethodOverridingExample.MethodOverridingExample();
 
         PolymorphismExample.PolymorphismExample();
+
+        Car object = new Suzuki(); //Car object => contents of Suzuki
+        object.accelerate();       //call the method
+
+        Bike9 object2 = new Bike9();
+        object2.run();
     }
 
     private void testingGC(){
