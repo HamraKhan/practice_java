@@ -180,11 +180,25 @@ class Executor {
         Car object = new Suzuki(); //Car object => contents of Suzuki
         object.accelerate();       //call the method
 
-        Bike9 object2 = new Bike9();
-        object2.run();
-
         Pet p = new Rabbit();
         p.poop();
+
+        ConstructorDemo d1 = new ConstructorDemo();
+        d1.display();
+
+        ConstructorOverloadingDemo demo = new ConstructorOverloadingDemo();
+
+
+        ConstructorOverloadingDemo demo2 = new ConstructorOverloadingDemo(30);
+
+
+        ConstructorOverloadingDemo demo3 = new ConstructorOverloadingDemo(30, 40);
+        demo.display();
+        demo2.display();
+        demo3.display();
+
+        DemoChild dem1 = new DemoChild();
+        dem1.display();
     }
 
     private void testingGC(){
