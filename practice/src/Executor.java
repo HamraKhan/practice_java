@@ -207,6 +207,8 @@ class Executor {
         JavaException2.TryCatch2();
         JavaException3.TryCatch3();
         JavaException4.FinallyExample();
+        JavaException5.ThrowKeyword();
+        JavaException6.ThrowsKeyword();
     }
 
     private void testingGC(){
