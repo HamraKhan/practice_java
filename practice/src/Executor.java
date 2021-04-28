@@ -1,4 +1,4 @@
-
+import samplepackage.SamplePackage;
 
 class Executor {
     public static void main(String[] args) {
@@ -199,6 +199,14 @@ class Executor {
 
         DemoChild dem1 = new DemoChild();
         dem1.display();
+
+        SamplePackage object1 = new SamplePackage();
+        object1.m1();
+
+        JavaException.TryCatch();
+        JavaException2.TryCatch2();
+        JavaException3.TryCatch3();
+        JavaException4.FinallyExample();
     }
 
     private void testingGC(){
