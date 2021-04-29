@@ -209,6 +209,7 @@ class Executor {
         JavaException4.FinallyExample();
         JavaException5.ThrowKeyword();
         JavaException6.ThrowsKeyword();
+        UsingForEach.ForEachExample();
     }
 
     private void testingGC(){
