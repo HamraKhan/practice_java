@@ -210,6 +210,8 @@ class Executor {
         JavaException5.ThrowKeyword();
         JavaException6.ThrowsKeyword();
         UsingForEach.ForEachExample();
+
+        SwitchExample.Switchboard();
     }
 
     private void testingGC(){
