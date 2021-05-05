@@ -212,6 +212,8 @@ class Executor {
         UsingForEach.ForEachExample();
 
         SwitchExample.Switchboard();
+
+        MathAbs.MathAbsExample();
     }
 
     private void testingGC(){
