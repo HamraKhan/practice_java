@@ -214,6 +214,7 @@ class Executor {
         SwitchExample.Switchboard();
 
         MathAbs.MathAbsExample();
+        MathRound.MathRoundExample();
     }
 
     private void testingGC(){
