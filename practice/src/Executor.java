@@ -217,6 +217,8 @@ class Executor {
         MathRound.MathRoundExample();
         MathCeilAndFloor.CeilAndFloorExample();
         MathMinAndMax.MinAndMaxExample();
+
+        ExpoAndLogMethods.ExpoAndLogExample();
     }
 
     private void testingGC(){
