@@ -219,6 +219,7 @@ class Executor {
         MathMinAndMax.MinAndMaxExample();
 
         ExpoAndLogMethods.ExpoAndLogExample();
+        TrigonometricMethods.TrigonometricExamples();
     }
 
     private void testingGC(){
