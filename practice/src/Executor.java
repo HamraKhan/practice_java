@@ -220,6 +220,9 @@ class Executor {
 
         ExpoAndLogMethods.ExpoAndLogExample();
         TrigonometricMethods.TrigonometricExamples();
+
+        RandomNumbers.RandomNumberExample();
+        DemoRandom.RandomExample();
     }
 
     private void testingGC(){
