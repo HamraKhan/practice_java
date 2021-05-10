@@ -223,6 +223,9 @@ class Executor {
 
         RandomNumbers.RandomNumberExample();
         DemoRandom.RandomExample();
+
+        Date_Ex1.DateExample();
+        TestDates_Format.DatesExample();
     }
 
     private void testingGC(){
