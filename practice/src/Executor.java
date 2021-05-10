@@ -1,7 +1,9 @@
 import samplepackage.SamplePackage;
 
+import java.text.ParseException;
+
 class Executor {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         System.out.println("Hello World I am the greatest v26.");
         System.out.println(2 + 2 + 6);
 
@@ -226,6 +228,7 @@ class Executor {
 
         Date_Ex1.DateExample();
         TestDates_Format.DatesExample();
+        TestDates_Compare.CompareToExample();
     }
 
     private void testingGC(){
