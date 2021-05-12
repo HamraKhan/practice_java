@@ -229,6 +229,12 @@ class Executor {
         Date_Ex1.DateExample();
         TestDates_Format.DatesExample();
         TestDates_Compare.CompareToExample();
+
+        GraphicalUserInterface.GuiExample();
+        AddButtonGUI.AddButton();
+        AddSecondButton.AddButton2();
+        ChatFrame.ChatFrameWindow();
+
     }
 
     private void testingGC(){
