@@ -235,6 +235,10 @@ class Executor {
         AddSecondButton.AddButton2();
         ChatFrame.ChatFrameWindow();
 
+        StrSplit.SplitStringExample();
+        StrSplit2.SplitStringExample2();
+        StrSplit3.SplitStringExample3();
+
     }
 
     private void testingGC(){
