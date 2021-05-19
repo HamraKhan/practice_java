@@ -239,6 +239,10 @@ class Executor {
         StrSplit2.SplitStringExample2();
         StrSplit3.SplitStringExample3();
 
+        IfStatement.IfStatementExample();
+        IfStatement2.IfStatementExample2();
+        NestedIfStatement.NestedIfExample();
+
     }
 
     private void testingGC(){
