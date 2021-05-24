@@ -245,6 +245,7 @@ class Executor {
         ElseIfStatement.ElseIfExample();
 
         LogicalOperators.AndOperator();
+        LogicalOperators2.OrOperator();
 
     }
 
