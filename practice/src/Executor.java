@@ -242,6 +242,7 @@ class Executor {
         IfStatement.IfStatementExample();
         IfStatement2.IfStatementExample2();
         NestedIfStatement.NestedIfExample();
+        ElseIfStatement.ElseIfExample();
 
     }
 
