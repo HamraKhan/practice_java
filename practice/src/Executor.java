@@ -246,6 +246,7 @@ class Executor {
 
         LogicalOperators.AndOperator();
         LogicalOperators2.OrOperator();
+        LogicalOperators3.NotOperator();
 
     }
 
