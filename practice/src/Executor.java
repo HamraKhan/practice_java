@@ -244,6 +244,8 @@ class Executor {
         NestedIfStatement.NestedIfExample();
         ElseIfStatement.ElseIfExample();
 
+        LogicalOperators.AndOperator();
+
     }
 
     private void testingGC(){
