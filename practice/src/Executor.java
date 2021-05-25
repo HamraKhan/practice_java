@@ -249,6 +249,7 @@ class Executor {
         LogicalOperators3.NotOperator();
 
         SwitchExample2.SwitchStatement();
+        SwitchExample3.DefaultStatement();
 
     }
 
