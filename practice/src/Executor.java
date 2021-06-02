@@ -251,6 +251,9 @@ class Executor {
         SwitchExample2.SwitchStatement();
         SwitchExample3.DefaultStatement();
 
+        WhileLoops.WhileLoopStatement();
+        LoopControl.BreakExample();
+
     }
 
     private void testingGC(){
